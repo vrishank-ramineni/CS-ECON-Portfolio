@@ -42,9 +42,20 @@ const PROJECTS = [
     github:
       "https://github.com/vrishank-ramineni/ECON3916---Statistics-Machine-Learning/tree/main/Assignment_5",
   },
+  {
+    label: "Sports Analytics",
+    type: "Classification ML",
+    title: "The All-Star Algorithm",
+    subtitle: "NBA All-Star Predictor",
+    description:
+      "Built a supervised ML system to forecast NBA All-Star selection using 10 seasons of per-game statistics (4,255 player-seasons). Trained Logistic Regression, Random Forest, and Gradient Boosting classifiers with 5-fold cross-validation and GridSearchCV tuning. Applied class weighting to handle a 6.3% All-Star imbalance. Random Forest achieved the best F1 of 0.704 (69.1% precision, 71.7% recall) across 13 statistical features. Deployed as an interactive Streamlit app.",
+    tech: ["Python", "scikit-learn", "Streamlit", "Plotly", "pandas", "NumPy"],
+    github:
+      "https://github.com/vrishank-ramineni/ECON3916---Statistics-Machine-Learning/tree/main/NBA%20All-Star%20Predictor",
+  },
 ];
 
-const PLACEHOLDERS = 2;
+const PLACEHOLDERS = 1;
 
 export default function Projects() {
   return (
