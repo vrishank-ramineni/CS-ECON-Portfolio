@@ -2,7 +2,7 @@ const EXPERIENCE = [
   {
     role: "Data Analyst Consultant",
     company: "IBM",
-    type: "Incoming · Full-time",
+    type: "Incoming · Internship",
     period: "Summer 2026",
     description:
       "Incoming Data Analyst Consultant at one of the world's leading technology and consulting firms. Focused on data-driven strategy and analytics engagements.",
